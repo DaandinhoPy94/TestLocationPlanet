@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5d6ed7daa421c4599e8e8d0d46e097, type: 3}
+  m_Name: ElectronicsFactory
+  m_EditorClassIdentifier: 
+  factoryName: Electronics Factory
+  availableRecipes:
+  - {fileID: 11400000, guid: 04e36fe3e6795ad4099eae4340edcc66, type: 2}
+  - {fileID: 11400000, guid: e7bd447c82803e14bba5440b8c0c0814, type: 2}
+  levelData:
+  - productionSpeedMultiplier: 1
+    maxQueueSize: 2
+    maxReadyBuffer: 3
+    unlockedRecipes: []
+    upgradeCosts:
+    - resource: {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+      amount: 1
+  - productionSpeedMultiplier: 0.9
+    maxQueueSize: 3
+    maxReadyBuffer: 4
+    unlockedRecipes: []
+    upgradeCosts:
+    - resource: {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+      amount: 2

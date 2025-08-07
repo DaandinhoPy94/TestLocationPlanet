@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506386bf48525af4c856e11564586949, type: 3}
+  m_Name: CopperNode
+  m_EditorClassIdentifier: 
+  resource: {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+  levelData:
+  - amountPerClick: 1
+    cooldown: 1
+    maxOutput: 2
+    upgradeCosts:
+    - resource: {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+      amount: 1
+  - amountPerClick: 2
+    cooldown: 1
+    maxOutput: 3
+    upgradeCosts:
+    - resource: {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+      amount: 2

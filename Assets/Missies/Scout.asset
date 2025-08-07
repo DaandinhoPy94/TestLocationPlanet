@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be3b8e8e68e59f42abdb8ee2b9a6f18, type: 3}
+  m_Name: Scout
+  m_EditorClassIdentifier: 
+  missionName: Scout
+  durationSeconds: 5
+  unlockLevel: 9
+  inputRequirements:
+  - resource: {fileID: 11400000, guid: 7189a58968647ca45853b9b13ffa8f2b, type: 2}
+    amount: 1
+  - resource: {fileID: 11400000, guid: 3e228229b9040b4409f237ab466494d1, type: 2}
+    amount: 1
+  - resource: {fileID: 11400000, guid: 87bc1a7e554d259488b04a04e581e7f3, type: 2}
+    amount: 1
+  dropTable:
+  - resource: {fileID: 11400000, guid: 6e3d9043dc53dbb4e90d696abc8bbbe2, type: 2}
+    chance: 1
+  - resource: {fileID: 11400000, guid: 9e22b9f8dd4b10f4e8c97a9b3472233c, type: 2}
+    chance: 0.1
+  - resource: {fileID: 11400000, guid: bdfa70ed33d217843b924d49d136a881, type: 2}
+    chance: 0.1

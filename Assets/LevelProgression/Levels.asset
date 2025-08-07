@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19b07200239a50489fb2c84ddbd4af4, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  unlocksPerLevel:
+  - level: 1
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    unlockedFactories: []
+    unlockedAdvancedFactories: []
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    unlockedMissions: []
+  - level: 2
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    unlockedFactories: []
+    unlockedAdvancedFactories: []
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    unlockedMissions: []
+  - level: 3
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    unlockedFactories: []
+    unlockedAdvancedFactories: []
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions: []
+  - level: 4
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    unlockedAdvancedFactories: []
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions: []
+  - level: 5
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    unlockedAdvancedFactories: []
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions: []
+  - level: 6
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    - {fileID: 11400000, guid: 2c07d8788227a2348bc4cf5b1c998e54, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    - {fileID: 11400000, guid: ec7d90ac48d8d3d4da32d55664215c3c, type: 2}
+    unlockedAdvancedFactories: []
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions: []
+  - level: 7
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    - {fileID: 11400000, guid: 2c07d8788227a2348bc4cf5b1c998e54, type: 2}
+    - {fileID: 11400000, guid: 3e228229b9040b4409f237ab466494d1, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    - {fileID: 11400000, guid: ec7d90ac48d8d3d4da32d55664215c3c, type: 2}
+    unlockedAdvancedFactories:
+    - {fileID: 11400000, guid: 42381f51e09c88e45b893dff46f38cd2, type: 2}
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions: []
+  - level: 8
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    - {fileID: 11400000, guid: 2c07d8788227a2348bc4cf5b1c998e54, type: 2}
+    - {fileID: 11400000, guid: 3e228229b9040b4409f237ab466494d1, type: 2}
+    - {fileID: 11400000, guid: 87bc1a7e554d259488b04a04e581e7f3, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    - {fileID: 11400000, guid: ec7d90ac48d8d3d4da32d55664215c3c, type: 2}
+    unlockedAdvancedFactories:
+    - {fileID: 11400000, guid: 42381f51e09c88e45b893dff46f38cd2, type: 2}
+    - {fileID: 11400000, guid: 9c83f2bc939cd6843bfa2959ffb94477, type: 2}
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions: []
+  - level: 9
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    - {fileID: 11400000, guid: 2c07d8788227a2348bc4cf5b1c998e54, type: 2}
+    - {fileID: 11400000, guid: 3e228229b9040b4409f237ab466494d1, type: 2}
+    - {fileID: 11400000, guid: 87bc1a7e554d259488b04a04e581e7f3, type: 2}
+    - {fileID: 11400000, guid: 7189a58968647ca45853b9b13ffa8f2b, type: 2}
+    - {fileID: 11400000, guid: 6e3d9043dc53dbb4e90d696abc8bbbe2, type: 2}
+    - {fileID: 11400000, guid: 9e22b9f8dd4b10f4e8c97a9b3472233c, type: 2}
+    - {fileID: 11400000, guid: bdfa70ed33d217843b924d49d136a881, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    - {fileID: 11400000, guid: ec7d90ac48d8d3d4da32d55664215c3c, type: 2}
+    unlockedAdvancedFactories:
+    - {fileID: 11400000, guid: 42381f51e09c88e45b893dff46f38cd2, type: 2}
+    - {fileID: 11400000, guid: 9c83f2bc939cd6843bfa2959ffb94477, type: 2}
+    - {fileID: 11400000, guid: 126a56fba991fe7419da9a3e2777918e, type: 2}
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions:
+    - {fileID: 11400000, guid: 825ab795a5be88347bd8630759e550f5, type: 2}
+  - level: 10
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    - {fileID: 11400000, guid: 2c07d8788227a2348bc4cf5b1c998e54, type: 2}
+    - {fileID: 11400000, guid: 3e228229b9040b4409f237ab466494d1, type: 2}
+    - {fileID: 11400000, guid: 87bc1a7e554d259488b04a04e581e7f3, type: 2}
+    - {fileID: 11400000, guid: 7189a58968647ca45853b9b13ffa8f2b, type: 2}
+    - {fileID: 11400000, guid: 2fb65eb9cd04f9f43b9411c51ac0f294, type: 2}
+    - {fileID: 11400000, guid: 6e3d9043dc53dbb4e90d696abc8bbbe2, type: 2}
+    - {fileID: 11400000, guid: 9e22b9f8dd4b10f4e8c97a9b3472233c, type: 2}
+    - {fileID: 11400000, guid: bdfa70ed33d217843b924d49d136a881, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    - {fileID: 11400000, guid: ec7d90ac48d8d3d4da32d55664215c3c, type: 2}
+    unlockedAdvancedFactories:
+    - {fileID: 11400000, guid: 42381f51e09c88e45b893dff46f38cd2, type: 2}
+    - {fileID: 11400000, guid: 9c83f2bc939cd6843bfa2959ffb94477, type: 2}
+    - {fileID: 11400000, guid: 126a56fba991fe7419da9a3e2777918e, type: 2}
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions:
+    - {fileID: 11400000, guid: 825ab795a5be88347bd8630759e550f5, type: 2}
+  - level: 11
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    - {fileID: 11400000, guid: 2c07d8788227a2348bc4cf5b1c998e54, type: 2}
+    - {fileID: 11400000, guid: 3e228229b9040b4409f237ab466494d1, type: 2}
+    - {fileID: 11400000, guid: 87bc1a7e554d259488b04a04e581e7f3, type: 2}
+    - {fileID: 11400000, guid: 7189a58968647ca45853b9b13ffa8f2b, type: 2}
+    - {fileID: 11400000, guid: 2fb65eb9cd04f9f43b9411c51ac0f294, type: 2}
+    - {fileID: 11400000, guid: 33ba12b7530e8544bab2956335a5e55f, type: 2}
+    - {fileID: 11400000, guid: 6e3d9043dc53dbb4e90d696abc8bbbe2, type: 2}
+    - {fileID: 11400000, guid: 9e22b9f8dd4b10f4e8c97a9b3472233c, type: 2}
+    - {fileID: 11400000, guid: bdfa70ed33d217843b924d49d136a881, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    - {fileID: 11400000, guid: ec7d90ac48d8d3d4da32d55664215c3c, type: 2}
+    unlockedAdvancedFactories:
+    - {fileID: 11400000, guid: 42381f51e09c88e45b893dff46f38cd2, type: 2}
+    - {fileID: 11400000, guid: 9c83f2bc939cd6843bfa2959ffb94477, type: 2}
+    - {fileID: 11400000, guid: 126a56fba991fe7419da9a3e2777918e, type: 2}
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions:
+    - {fileID: 11400000, guid: 825ab795a5be88347bd8630759e550f5, type: 2}
+  - level: 12
+    unlockedResources:
+    - {fileID: 11400000, guid: 4c36e7dd47612564db01d42aa207876b, type: 2}
+    - {fileID: 11400000, guid: 62f48305e49a55a4390046ad543c5cb0, type: 2}
+    - {fileID: 11400000, guid: 63032a473061bde4297b2861650ba244, type: 2}
+    - {fileID: 11400000, guid: 661200e724a55e84e89f35dce08b20ec, type: 2}
+    - {fileID: 11400000, guid: c08162141619d3243ab1a752ef754e54, type: 2}
+    - {fileID: 11400000, guid: 2c07d8788227a2348bc4cf5b1c998e54, type: 2}
+    - {fileID: 11400000, guid: 3e228229b9040b4409f237ab466494d1, type: 2}
+    - {fileID: 11400000, guid: 87bc1a7e554d259488b04a04e581e7f3, type: 2}
+    - {fileID: 11400000, guid: 7189a58968647ca45853b9b13ffa8f2b, type: 2}
+    - {fileID: 11400000, guid: 2fb65eb9cd04f9f43b9411c51ac0f294, type: 2}
+    - {fileID: 11400000, guid: 33ba12b7530e8544bab2956335a5e55f, type: 2}
+    - {fileID: 11400000, guid: 1517d227a88cb5145965cd4fa2aa2836, type: 2}
+    - {fileID: 11400000, guid: 6e3d9043dc53dbb4e90d696abc8bbbe2, type: 2}
+    - {fileID: 11400000, guid: 9e22b9f8dd4b10f4e8c97a9b3472233c, type: 2}
+    - {fileID: 11400000, guid: bdfa70ed33d217843b924d49d136a881, type: 2}
+    - {fileID: 11400000, guid: 9ba0624ef9754c346996e2a5e154e305, type: 2}
+    - {fileID: 11400000, guid: d5238598466743045b1aa089e7ebab1d, type: 2}
+    - {fileID: 11400000, guid: 5de3634892e356b4e87482206850849f, type: 2}
+    unlockedFactories:
+    - {fileID: 11400000, guid: 329339b28b76cd44199babc8f1f5676a, type: 2}
+    - {fileID: 11400000, guid: a0c1c76742beb3c4cb94c2199f372359, type: 2}
+    - {fileID: 11400000, guid: ec7d90ac48d8d3d4da32d55664215c3c, type: 2}
+    unlockedAdvancedFactories:
+    - {fileID: 11400000, guid: 42381f51e09c88e45b893dff46f38cd2, type: 2}
+    - {fileID: 11400000, guid: 9c83f2bc939cd6843bfa2959ffb94477, type: 2}
+    - {fileID: 11400000, guid: 126a56fba991fe7419da9a3e2777918e, type: 2}
+    unlockedResourceNodes:
+    - {fileID: 11400000, guid: 35525971ca12a034f919b222ebe6c776, type: 2}
+    - {fileID: 11400000, guid: b03171e71e1b2574ea8ee162fcc30afe, type: 2}
+    - {fileID: 11400000, guid: 42e175cfbd0847b4ebeb7a40ee2f96c7, type: 2}
+    unlockedMissions:
+    - {fileID: 11400000, guid: 825ab795a5be88347bd8630759e550f5, type: 2}
+    - {fileID: 11400000, guid: 4f94f03734dc69a40864bb86302b160c, type: 2}
