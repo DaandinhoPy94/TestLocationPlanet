@@ -1,0 +1,11 @@
+name: Unity CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: game-ci/unity-builder@v4
+        with:
+          targetPlatform: StandaloneOSX # pas aan: StandaloneWindows, WebGL, etc.
+          unityVersion: 2022.3.XXf1     # zet jouw versie hier
